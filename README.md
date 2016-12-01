@@ -1,4 +1,4 @@
-# LQQWeChatDemo
+# LZWeChatPay
 微信支付demo
 
 #[博文详解](http://blog.csdn.net/lqq200912408/article/details/50557838)
