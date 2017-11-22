@@ -1,0 +1,733 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		912BCAE71FBFFBF900836D5A /* LQUmengSDK.m in Sources */ = {isa = PBXBuildFile; fileRef = 912BCAE61FBFFBF900836D5A /* LQUmengSDK.m */; };
+		91C3AE751FBBF1FC0026CEEF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91C3AE741FBBF1FC0026CEEF /* AppDelegate.swift */; };
+		91C3AE771FBBF1FC0026CEEF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91C3AE761FBBF1FC0026CEEF /* ViewController.swift */; };
+		91C3AE7A1FBBF1FC0026CEEF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 91C3AE781FBBF1FC0026CEEF /* Main.storyboard */; };
+		91C3AE7C1FBBF1FC0026CEEF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 91C3AE7B1FBBF1FC0026CEEF /* Assets.xcassets */; };
+		91C3AE7F1FBBF1FC0026CEEF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 91C3AE7D1FBBF1FC0026CEEF /* LaunchScreen.storyboard */; };
+		91C3AE8A1FBBF1FC0026CEEF /* LQUmengDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91C3AE891FBBF1FC0026CEEF /* LQUmengDemoTests.swift */; };
+		91C3AE951FBBF1FC0026CEEF /* LQUmengDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91C3AE941FBBF1FC0026CEEF /* LQUmengDemoUITests.swift */; };
+		91C3AEBA1FBD2D420026CEEF /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 91C3AEB91FBD2D420026CEEF /* libsqlite3.tbd */; };
+		91C3AEBD1FBD2D920026CEEF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91C3AEBB1FBD2D4B0026CEEF /* CoreGraphics.framework */; };
+		91C3AEC01FBD394B0026CEEF /* LQUmengSDK.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91C3AEBF1FBD394B0026CEEF /* LQUmengSDK.swift */; };
+		91C3AEF21FBD3D2B0026CEEF /* libSocialQQ.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 91C3AEE11FBD3D2A0026CEEF /* libSocialQQ.a */; };
+		91C3AEF31FBD3D2B0026CEEF /* libSocialSina.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 91C3AEE41FBD3D2A0026CEEF /* libSocialSina.a */; };
+		91C3AEF41FBD3D2B0026CEEF /* libSocialWeChat.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 91C3AEE71FBD3D2A0026CEEF /* libSocialWeChat.a */; };
+		91C3AEF51FBD3D2B0026CEEF /* UMSocialCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91C3AEEA1FBD3D2A0026CEEF /* UMSocialCore.framework */; };
+		91C3AEF61FBD3D2B0026CEEF /* UMSocialNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91C3AEEB1FBD3D2A0026CEEF /* UMSocialNetwork.framework */; };
+		91C3AEF71FBD3D2B0026CEEF /* UMSocialSDKPromptResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 91C3AEEC1FBD3D2A0026CEEF /* UMSocialSDKPromptResources.bundle */; };
+		91C3AEF81FBD3D2B0026CEEF /* libUMSocialLog.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 91C3AEEE1FBD3D2A0026CEEF /* libUMSocialLog.a */; };
+		91C3AEF91FBD3D2B0026CEEF /* UMSocialSDKResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 91C3AEF01FBD3D2A0026CEEF /* UMSocialSDKResources.bundle */; };
+		91C3AEFA1FBD3D2B0026CEEF /* UShareUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91C3AEF11FBD3D2A0026CEEF /* UShareUI.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		91C3AE861FBBF1FC0026CEEF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 91C3AE691FBBF1FC0026CEEF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 91C3AE701FBBF1FC0026CEEF;
+			remoteInfo = LQUmengDemo;
+		};
+		91C3AE911FBBF1FC0026CEEF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 91C3AE691FBBF1FC0026CEEF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 91C3AE701FBBF1FC0026CEEF;
+			remoteInfo = LQUmengDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		912BCAE51FBFFBF900836D5A /* LQUmengSDK.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LQUmengSDK.h; sourceTree = "<group>"; };
+		912BCAE61FBFFBF900836D5A /* LQUmengSDK.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LQUmengSDK.m; sourceTree = "<group>"; };
+		914B3EFB1FBD683C00C86E9B /* UMSocialSDKResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = UMSocialSDKResources.bundle; sourceTree = "<group>"; };
+		914B3EFC1FBD683C00C86E9B /* UShareUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = UShareUI.framework; sourceTree = "<group>"; };
+		91C3AE711FBBF1FC0026CEEF /* LQUmengDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LQUmengDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		91C3AE741FBBF1FC0026CEEF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		91C3AE761FBBF1FC0026CEEF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		91C3AE791FBBF1FC0026CEEF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		91C3AE7B1FBBF1FC0026CEEF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		91C3AE7E1FBBF1FC0026CEEF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		91C3AE801FBBF1FC0026CEEF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		91C3AE851FBBF1FC0026CEEF /* LQUmengDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LQUmengDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		91C3AE891FBBF1FC0026CEEF /* LQUmengDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LQUmengDemoTests.swift; sourceTree = "<group>"; };
+		91C3AE8B1FBBF1FC0026CEEF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		91C3AE901FBBF1FC0026CEEF /* LQUmengDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LQUmengDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		91C3AE941FBBF1FC0026CEEF /* LQUmengDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LQUmengDemoUITests.swift; sourceTree = "<group>"; };
+		91C3AE961FBBF1FC0026CEEF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		91C3AEB91FBD2D420026CEEF /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		91C3AEBB1FBD2D4B0026CEEF /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		91C3AEBE1FBD38A50026CEEF /* LQUmeng-Brigding-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LQUmeng-Brigding-Header.h"; sourceTree = "<group>"; };
+		91C3AEBF1FBD394B0026CEEF /* LQUmengSDK.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LQUmengSDK.swift; sourceTree = "<group>"; };
+		91C3AEE11FBD3D2A0026CEEF /* libSocialQQ.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libSocialQQ.a; sourceTree = "<group>"; };
+		91C3AEE21FBD3D2A0026CEEF /* UMSocialQQHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UMSocialQQHandler.h; sourceTree = "<group>"; };
+		91C3AEE41FBD3D2A0026CEEF /* libSocialSina.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libSocialSina.a; sourceTree = "<group>"; };
+		91C3AEE51FBD3D2A0026CEEF /* UMSocialSinaHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UMSocialSinaHandler.h; sourceTree = "<group>"; };
+		91C3AEE71FBD3D2A0026CEEF /* libSocialWeChat.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libSocialWeChat.a; sourceTree = "<group>"; };
+		91C3AEE81FBD3D2A0026CEEF /* UMSocialWechatHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UMSocialWechatHandler.h; sourceTree = "<group>"; };
+		91C3AEEA1FBD3D2A0026CEEF /* UMSocialCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = UMSocialCore.framework; sourceTree = "<group>"; };
+		91C3AEEB1FBD3D2A0026CEEF /* UMSocialNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = UMSocialNetwork.framework; sourceTree = "<group>"; };
+		91C3AEEC1FBD3D2A0026CEEF /* UMSocialSDKPromptResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = UMSocialSDKPromptResources.bundle; sourceTree = "<group>"; };
+		91C3AEEE1FBD3D2A0026CEEF /* libUMSocialLog.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libUMSocialLog.a; sourceTree = "<group>"; };
+		91C3AEF01FBD3D2A0026CEEF /* UMSocialSDKResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = UMSocialSDKResources.bundle; sourceTree = "<group>"; };
+		91C3AEF11FBD3D2A0026CEEF /* UShareUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = UShareUI.framework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		91C3AE6E1FBBF1FC0026CEEF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91C3AEF21FBD3D2B0026CEEF /* libSocialQQ.a in Frameworks */,
+				91C3AEF41FBD3D2B0026CEEF /* libSocialWeChat.a in Frameworks */,
+				91C3AEBD1FBD2D920026CEEF /* CoreGraphics.framework in Frameworks */,
+				91C3AEBA1FBD2D420026CEEF /* libsqlite3.tbd in Frameworks */,
+				91C3AEF51FBD3D2B0026CEEF /* UMSocialCore.framework in Frameworks */,
+				91C3AEF81FBD3D2B0026CEEF /* libUMSocialLog.a in Frameworks */,
+				91C3AEF61FBD3D2B0026CEEF /* UMSocialNetwork.framework in Frameworks */,
+				91C3AEF31FBD3D2B0026CEEF /* libSocialSina.a in Frameworks */,
+				91C3AEFA1FBD3D2B0026CEEF /* UShareUI.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91C3AE821FBBF1FC0026CEEF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91C3AE8D1FBBF1FC0026CEEF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		914B3EFA1FBD683C00C86E9B /* UMSocialUI */ = {
+			isa = PBXGroup;
+			children = (
+				914B3EFB1FBD683C00C86E9B /* UMSocialSDKResources.bundle */,
+				914B3EFC1FBD683C00C86E9B /* UShareUI.framework */,
+			);
+			path = UMSocialUI;
+			sourceTree = "<group>";
+		};
+		91C3AE681FBBF1FC0026CEEF = {
+			isa = PBXGroup;
+			children = (
+				91C3AE731FBBF1FC0026CEEF /* LQUmengDemo */,
+				91C3AE881FBBF1FC0026CEEF /* LQUmengDemoTests */,
+				91C3AE931FBBF1FC0026CEEF /* LQUmengDemoUITests */,
+				91C3AE721FBBF1FC0026CEEF /* Products */,
+				91C3AEB81FBD2D420026CEEF /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		91C3AE721FBBF1FC0026CEEF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				91C3AE711FBBF1FC0026CEEF /* LQUmengDemo.app */,
+				91C3AE851FBBF1FC0026CEEF /* LQUmengDemoTests.xctest */,
+				91C3AE901FBBF1FC0026CEEF /* LQUmengDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		91C3AE731FBBF1FC0026CEEF /* LQUmengDemo */ = {
+			isa = PBXGroup;
+			children = (
+				914B3EFA1FBD683C00C86E9B /* UMSocialUI */,
+				91C3AEDE1FBD3D2A0026CEEF /* UMSocial */,
+				91C3AE741FBBF1FC0026CEEF /* AppDelegate.swift */,
+				91C3AEBE1FBD38A50026CEEF /* LQUmeng-Brigding-Header.h */,
+				91C3AE761FBBF1FC0026CEEF /* ViewController.swift */,
+				91C3AEBF1FBD394B0026CEEF /* LQUmengSDK.swift */,
+				912BCAE51FBFFBF900836D5A /* LQUmengSDK.h */,
+				912BCAE61FBFFBF900836D5A /* LQUmengSDK.m */,
+				91C3AE781FBBF1FC0026CEEF /* Main.storyboard */,
+				91C3AE7B1FBBF1FC0026CEEF /* Assets.xcassets */,
+				91C3AE7D1FBBF1FC0026CEEF /* LaunchScreen.storyboard */,
+				91C3AE801FBBF1FC0026CEEF /* Info.plist */,
+			);
+			path = LQUmengDemo;
+			sourceTree = "<group>";
+		};
+		91C3AE881FBBF1FC0026CEEF /* LQUmengDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				91C3AE891FBBF1FC0026CEEF /* LQUmengDemoTests.swift */,
+				91C3AE8B1FBBF1FC0026CEEF /* Info.plist */,
+			);
+			path = LQUmengDemoTests;
+			sourceTree = "<group>";
+		};
+		91C3AE931FBBF1FC0026CEEF /* LQUmengDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				91C3AE941FBBF1FC0026CEEF /* LQUmengDemoUITests.swift */,
+				91C3AE961FBBF1FC0026CEEF /* Info.plist */,
+			);
+			path = LQUmengDemoUITests;
+			sourceTree = "<group>";
+		};
+		91C3AEB81FBD2D420026CEEF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				91C3AEBB1FBD2D4B0026CEEF /* CoreGraphics.framework */,
+				91C3AEB91FBD2D420026CEEF /* libsqlite3.tbd */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		91C3AEDE1FBD3D2A0026CEEF /* UMSocial */ = {
+			isa = PBXGroup;
+			children = (
+				91C3AEDF1FBD3D2A0026CEEF /* SocialLibraries */,
+				91C3AEE91FBD3D2A0026CEEF /* UMSocialSDK */,
+				91C3AEED1FBD3D2A0026CEEF /* UMSocialSDKPlugin */,
+				91C3AEEF1FBD3D2A0026CEEF /* UMSocialUI */,
+			);
+			path = UMSocial;
+			sourceTree = "<group>";
+		};
+		91C3AEDF1FBD3D2A0026CEEF /* SocialLibraries */ = {
+			isa = PBXGroup;
+			children = (
+				91C3AEE01FBD3D2A0026CEEF /* QQ */,
+				91C3AEE31FBD3D2A0026CEEF /* Sina */,
+				91C3AEE61FBD3D2A0026CEEF /* WeChat */,
+			);
+			path = SocialLibraries;
+			sourceTree = "<group>";
+		};
+		91C3AEE01FBD3D2A0026CEEF /* QQ */ = {
+			isa = PBXGroup;
+			children = (
+				91C3AEE11FBD3D2A0026CEEF /* libSocialQQ.a */,
+				91C3AEE21FBD3D2A0026CEEF /* UMSocialQQHandler.h */,
+			);
+			path = QQ;
+			sourceTree = "<group>";
+		};
+		91C3AEE31FBD3D2A0026CEEF /* Sina */ = {
+			isa = PBXGroup;
+			children = (
+				91C3AEE41FBD3D2A0026CEEF /* libSocialSina.a */,
+				91C3AEE51FBD3D2A0026CEEF /* UMSocialSinaHandler.h */,
+			);
+			path = Sina;
+			sourceTree = "<group>";
+		};
+		91C3AEE61FBD3D2A0026CEEF /* WeChat */ = {
+			isa = PBXGroup;
+			children = (
+				91C3AEE71FBD3D2A0026CEEF /* libSocialWeChat.a */,
+				91C3AEE81FBD3D2A0026CEEF /* UMSocialWechatHandler.h */,
+			);
+			path = WeChat;
+			sourceTree = "<group>";
+		};
+		91C3AEE91FBD3D2A0026CEEF /* UMSocialSDK */ = {
+			isa = PBXGroup;
+			children = (
+				91C3AEEA1FBD3D2A0026CEEF /* UMSocialCore.framework */,
+				91C3AEEB1FBD3D2A0026CEEF /* UMSocialNetwork.framework */,
+				91C3AEEC1FBD3D2A0026CEEF /* UMSocialSDKPromptResources.bundle */,
+			);
+			path = UMSocialSDK;
+			sourceTree = "<group>";
+		};
+		91C3AEED1FBD3D2A0026CEEF /* UMSocialSDKPlugin */ = {
+			isa = PBXGroup;
+			children = (
+				91C3AEEE1FBD3D2A0026CEEF /* libUMSocialLog.a */,
+			);
+			path = UMSocialSDKPlugin;
+			sourceTree = "<group>";
+		};
+		91C3AEEF1FBD3D2A0026CEEF /* UMSocialUI */ = {
+			isa = PBXGroup;
+			children = (
+				91C3AEF01FBD3D2A0026CEEF /* UMSocialSDKResources.bundle */,
+				91C3AEF11FBD3D2A0026CEEF /* UShareUI.framework */,
+			);
+			path = UMSocialUI;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		91C3AE701FBBF1FC0026CEEF /* LQUmengDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 91C3AE991FBBF1FC0026CEEF /* Build configuration list for PBXNativeTarget "LQUmengDemo" */;
+			buildPhases = (
+				91C3AE6D1FBBF1FC0026CEEF /* Sources */,
+				91C3AE6E1FBBF1FC0026CEEF /* Frameworks */,
+				91C3AE6F1FBBF1FC0026CEEF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LQUmengDemo;
+			productName = LQUmengDemo;
+			productReference = 91C3AE711FBBF1FC0026CEEF /* LQUmengDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		91C3AE841FBBF1FC0026CEEF /* LQUmengDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 91C3AE9C1FBBF1FC0026CEEF /* Build configuration list for PBXNativeTarget "LQUmengDemoTests" */;
+			buildPhases = (
+				91C3AE811FBBF1FC0026CEEF /* Sources */,
+				91C3AE821FBBF1FC0026CEEF /* Frameworks */,
+				91C3AE831FBBF1FC0026CEEF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				91C3AE871FBBF1FC0026CEEF /* PBXTargetDependency */,
+			);
+			name = LQUmengDemoTests;
+			productName = LQUmengDemoTests;
+			productReference = 91C3AE851FBBF1FC0026CEEF /* LQUmengDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		91C3AE8F1FBBF1FC0026CEEF /* LQUmengDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 91C3AE9F1FBBF1FC0026CEEF /* Build configuration list for PBXNativeTarget "LQUmengDemoUITests" */;
+			buildPhases = (
+				91C3AE8C1FBBF1FC0026CEEF /* Sources */,
+				91C3AE8D1FBBF1FC0026CEEF /* Frameworks */,
+				91C3AE8E1FBBF1FC0026CEEF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				91C3AE921FBBF1FC0026CEEF /* PBXTargetDependency */,
+			);
+			name = LQUmengDemoUITests;
+			productName = LQUmengDemoUITests;
+			productReference = 91C3AE901FBBF1FC0026CEEF /* LQUmengDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		91C3AE691FBBF1FC0026CEEF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = Artup;
+				TargetAttributes = {
+					91C3AE701FBBF1FC0026CEEF = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+					91C3AE841FBBF1FC0026CEEF = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 91C3AE701FBBF1FC0026CEEF;
+					};
+					91C3AE8F1FBBF1FC0026CEEF = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 91C3AE701FBBF1FC0026CEEF;
+					};
+				};
+			};
+			buildConfigurationList = 91C3AE6C1FBBF1FC0026CEEF /* Build configuration list for PBXProject "LQUmengDemo" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 91C3AE681FBBF1FC0026CEEF;
+			productRefGroup = 91C3AE721FBBF1FC0026CEEF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				91C3AE701FBBF1FC0026CEEF /* LQUmengDemo */,
+				91C3AE841FBBF1FC0026CEEF /* LQUmengDemoTests */,
+				91C3AE8F1FBBF1FC0026CEEF /* LQUmengDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		91C3AE6F1FBBF1FC0026CEEF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91C3AE7F1FBBF1FC0026CEEF /* LaunchScreen.storyboard in Resources */,
+				91C3AE7C1FBBF1FC0026CEEF /* Assets.xcassets in Resources */,
+				91C3AE7A1FBBF1FC0026CEEF /* Main.storyboard in Resources */,
+				91C3AEF71FBD3D2B0026CEEF /* UMSocialSDKPromptResources.bundle in Resources */,
+				91C3AEF91FBD3D2B0026CEEF /* UMSocialSDKResources.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91C3AE831FBBF1FC0026CEEF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91C3AE8E1FBBF1FC0026CEEF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		91C3AE6D1FBBF1FC0026CEEF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91C3AEC01FBD394B0026CEEF /* LQUmengSDK.swift in Sources */,
+				91C3AE771FBBF1FC0026CEEF /* ViewController.swift in Sources */,
+				912BCAE71FBFFBF900836D5A /* LQUmengSDK.m in Sources */,
+				91C3AE751FBBF1FC0026CEEF /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91C3AE811FBBF1FC0026CEEF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91C3AE8A1FBBF1FC0026CEEF /* LQUmengDemoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91C3AE8C1FBBF1FC0026CEEF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91C3AE951FBBF1FC0026CEEF /* LQUmengDemoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		91C3AE871FBBF1FC0026CEEF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 91C3AE701FBBF1FC0026CEEF /* LQUmengDemo */;
+			targetProxy = 91C3AE861FBBF1FC0026CEEF /* PBXContainerItemProxy */;
+		};
+		91C3AE921FBBF1FC0026CEEF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 91C3AE701FBBF1FC0026CEEF /* LQUmengDemo */;
+			targetProxy = 91C3AE911FBBF1FC0026CEEF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		91C3AE781FBBF1FC0026CEEF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				91C3AE791FBBF1FC0026CEEF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		91C3AE7D1FBBF1FC0026CEEF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				91C3AE7E1FBBF1FC0026CEEF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		91C3AE971FBBF1FC0026CEEF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		91C3AE981FBBF1FC0026CEEF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		91C3AE9A1FBBF1FC0026CEEF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 29BN9F9KNE;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/LQUmengDemo/UMSocial/UMSocialSDK",
+					"$(PROJECT_DIR)/LQUmengDemo/UMSocial/UMSocialUI",
+				);
+				INFOPLIST_FILE = LQUmengDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/LQUmengDemo/UMSocial/SocialLibraries/QQ",
+					"$(PROJECT_DIR)/LQUmengDemo/UMSocial/SocialLibraries/Sina",
+					"$(PROJECT_DIR)/LQUmengDemo/UMSocial/SocialLibraries/WeChat",
+					"$(PROJECT_DIR)/LQUmengDemo/UMSocial/UMSocialSDKPlugin",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = net.artron.CGYC;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "LQUmengDemo/LQUmeng-Brigding-Header.h";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		91C3AE9B1FBBF1FC0026CEEF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 29BN9F9KNE;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/LQUmengDemo/UMSocial/UMSocialSDK",
+					"$(PROJECT_DIR)/LQUmengDemo/UMSocial/UMSocialUI",
+				);
+				INFOPLIST_FILE = LQUmengDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/LQUmengDemo/UMSocial/SocialLibraries/QQ",
+					"$(PROJECT_DIR)/LQUmengDemo/UMSocial/SocialLibraries/Sina",
+					"$(PROJECT_DIR)/LQUmengDemo/UMSocial/SocialLibraries/WeChat",
+					"$(PROJECT_DIR)/LQUmengDemo/UMSocial/UMSocialSDKPlugin",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = net.artron.CGYC;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "LQUmengDemo/LQUmeng-Brigding-Header.h";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		91C3AE9D1FBBF1FC0026CEEF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LQUmengDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.artron.LQUmengDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LQUmengDemo.app/LQUmengDemo";
+			};
+			name = Debug;
+		};
+		91C3AE9E1FBBF1FC0026CEEF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LQUmengDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.artron.LQUmengDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LQUmengDemo.app/LQUmengDemo";
+			};
+			name = Release;
+		};
+		91C3AEA01FBBF1FC0026CEEF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LQUmengDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.artron.LQUmengDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LQUmengDemo;
+			};
+			name = Debug;
+		};
+		91C3AEA11FBBF1FC0026CEEF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LQUmengDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.artron.LQUmengDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LQUmengDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		91C3AE6C1FBBF1FC0026CEEF /* Build configuration list for PBXProject "LQUmengDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91C3AE971FBBF1FC0026CEEF /* Debug */,
+				91C3AE981FBBF1FC0026CEEF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		91C3AE991FBBF1FC0026CEEF /* Build configuration list for PBXNativeTarget "LQUmengDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91C3AE9A1FBBF1FC0026CEEF /* Debug */,
+				91C3AE9B1FBBF1FC0026CEEF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		91C3AE9C1FBBF1FC0026CEEF /* Build configuration list for PBXNativeTarget "LQUmengDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91C3AE9D1FBBF1FC0026CEEF /* Debug */,
+				91C3AE9E1FBBF1FC0026CEEF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		91C3AE9F1FBBF1FC0026CEEF /* Build configuration list for PBXNativeTarget "LQUmengDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91C3AEA01FBBF1FC0026CEEF /* Debug */,
+				91C3AEA11FBBF1FC0026CEEF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 91C3AE691FBBF1FC0026CEEF /* Project object */;
+}
