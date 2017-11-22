@@ -11,7 +11,7 @@
 #import <UShareUI/UShareUI.h>
 
 // Umeng AppKey
-static NSString*  kLQUmengSDK_UMengAppKey = @"59a373b345297d74f2000cd1";
+static NSString*  kLQUmengSDK_UMengAppKey = @"";
 
 // QQ
 static NSString* kLQUmengSDK_QQAppID = @"";
