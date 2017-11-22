@@ -7,7 +7,6 @@ demo包含三个文件:
 - LQWechatPay.swift -- Swift语言封装的相关API
 - LQWechatPay.h及LQWechatPay.m -- OC语言实现的相同功能封装
 
-
 以上文件可请根据需求选择使用.
 
 相关的文章地址:

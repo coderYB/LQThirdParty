@@ -7,8 +7,6 @@ demo包含三个文件:
 - LQShareSDK.swift -- Swift语言封装的相关API
 - LQShareSDK.h及LQShareSDK.m -- OC语言实现的相同功能封装
 
-
-
 以上文件可请根据需求选择使用.
 
 相关的文章地址:
@@ -103,8 +101,6 @@ LQShareSDK.shareMusic("http://sp.9sky.com/convert/song/music/1014827/20171108153
 ```
 
 详细内容可下载demo查看.
-
-
 
 
 
