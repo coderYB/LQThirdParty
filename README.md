@@ -26,6 +26,7 @@
 - [[Umeng] 友盟集成 - 第三方登录/分享](http://www.jianshu.com/p/9e0c35933e99)
 - [[AliPay]支付宝支付接入](http://www.jianshu.com/p/5d59c80ef916)
 - [[iOS]微信支付接入详解](http://www.jianshu.com/p/a92082b26fd9)
+- [[UnionPay]银联支付](https://www.jianshu.com/p/51f93eff3231)
 
 ##### 具体的介绍及使用请参考相关的md文件:
 - [ShareSDK.md](https://github.com/LQi2009/LQThirdParty/blob/master/ShareSDK.md)
