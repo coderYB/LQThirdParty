@@ -65,7 +65,7 @@ static NSString* kLQUmengSDK_SinaWeibOredirectUri = @"";
     return [[UMSocialManager defaultManager] isInstall:(UMSocialPlatformType_WechatSession)];
 }
 
-+ (void)login:(LQLoginType)type
++ (void)login:(LQPlatformType)type
 onViewController:(UIViewController *)vc
       success:(void(^)(NSString * uid, NSString * name, NSString * icon, NSString * sex))success
        failed:(void(^)(NSError* error))failed {
@@ -73,13 +73,13 @@ onViewController:(UIViewController *)vc
     UMSocialPlatformType loginType;
     
     switch (type) {
-        case LQLoginTypeQQ:
+        case LQPlatformTypeQQ:
             loginType = UMSocialPlatformType_QQ;
             break;
-        case LQLoginTypeWechat:
+        case LQPlatformTypeWechat:
             loginType = UMSocialPlatformType_WechatSession;
             break;
-        case LQLoginTypeSinaWeibo:
+        case LQPlatformTypeSinaWeibo:
             loginType = UMSocialPlatformType_Sina;
             break;
             

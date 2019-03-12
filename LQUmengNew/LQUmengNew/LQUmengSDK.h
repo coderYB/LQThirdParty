@@ -10,10 +10,11 @@
 
 @class UIViewController;
 typedef enum : NSUInteger {
-    LQLoginTypeQQ,
-    LQLoginTypeWechat,
-    LQLoginTypeSinaWeibo,
-} LQLoginType;
+    
+    LQPlatformTypeQQ,
+    LQPlatformTypeWechat,
+    LQPlatformTypeSinaWeibo,
+} LQPlatformType;
 
 typedef enum : NSUInteger {
     LQShareSessionWechatSession,
@@ -60,7 +61,7 @@ typedef enum : NSUInteger {
  @param success 成功回调
  @param failed 失败回调
  */
-+ (void)login:(LQLoginType)type
++ (void)login:(LQPlatformType)type
 onViewController:(UIViewController *)vc
       success:(void(^)(NSString * uid, NSString * name, NSString * icon, NSString * sex))success
        failed:(void(^)(NSError* error))failed;
