@@ -37,6 +37,7 @@
 - [友盟.md](https://github.com/LQi2009/LQThirdParty/blob/master/友盟.md)
 - [alipay.md](https://github.com/LQi2009/LQThirdParty/blob/master/alipay.md)
 - [wechatPay.md](https://github.com/LQi2009/LQThirdParty/blob/master/wechatPay.md)
+- [LQAppleLogin.md](https://github.com/LQi2009/LQThirdParty/blob/master/LQAppleLogin.md)
 
 # 欢迎Star & Fork
 
