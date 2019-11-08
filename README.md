@@ -10,6 +10,7 @@
 - LQUmengSDK : 针对友盟相关API的封装, 第三方登录及分享
 - LQAliSDKDemo : 支付宝支付的相关API封装, 可以直接使用
 - LQQWeChatDemo : 微信支付的demo
+- LQAppleLogin：Sign In with Apple
 
 以上demo中使用的所有封装文件, 全部在LQFiles放了一份, 可以直接从这里找到自己需要的文件放到已经配置好的工程里. 有的文件中包含了Swift与Objective-C两种语言的封装, 请根据自身需要, 分开单独使用;
 
@@ -17,6 +18,7 @@
 - 登录: 原生微信/QQ/新浪微博登录, 以及友盟/ShareSDK第三方登录;
 - 分享: 原生微信/QQ/新浪微博分享, 以及友盟/ShareSDK第三方分享;
 - 支付: 微信支付/支付宝支付
+- 苹果账号登录
 
 ##### 相关文章
 - [[Swift]原生第三方接入: 微信篇--集成/登录/分享/支付](http://www.jianshu.com/p/1b744a97e63d)
@@ -27,6 +29,7 @@
 - [[AliPay]支付宝支付接入](http://www.jianshu.com/p/5d59c80ef916)
 - [[iOS]微信支付接入详解](http://www.jianshu.com/p/a92082b26fd9)
 - [[UnionPay]银联支付](https://www.jianshu.com/p/51f93eff3231)
+- [[iOS 13\] Sign in with Apple 苹果登录](https://www.jianshu.com/p/e393b631d3b4)
 
 ##### 具体的介绍及使用请参考相关的md文件:
 - [ShareSDK.md](https://github.com/LQi2009/LQThirdParty/blob/master/ShareSDK.md)
@@ -37,11 +40,11 @@
 
 # 欢迎Star & Fork
 
-|||
-|:----:|:----:|
-|Github|[LQi2009](https://github.com/LQi2009)|
-|CSDN博客|[流火绯瞳](http://blog.csdn.net/lqq200912408)|
-|新浪微博|[杯水_沧海](http://www.weibo.com/u/2425045492/home)|
-|QQ|302934443|
+|        |                                          |
+| :----: | :--------------------------------------: |
+| Github |  [LQi2009](https://github.com/LQi2009)   |
+| CSDN博客 | [流火绯瞳](http://blog.csdn.net/lqq200912408) |
+|  新浪微博  | [杯水_沧海](http://www.weibo.com/u/2425045492/home) |
+|   QQ   |                302934443                 |
 
 
